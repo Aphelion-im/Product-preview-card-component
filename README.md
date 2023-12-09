@@ -69,7 +69,7 @@ Users should be able to:
 Code-wise I am not entirely satisfied.
 
 - CSS writing style may be improved with the [BEM method](https://getbem.com/introduction/). 
-- Viewport Height on mobile cuts of a part of the top
+- On mobile, a part of the site is cut off.
 - On iPad the card stretches vertically and the content gets too much whitespace.
 
 ### Useful resources

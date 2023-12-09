@@ -1,46 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
-// CSS reset Josh Comeau
-// https://www.joshwcomeau.com/css/custom-css-reset/
-
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/*
-  2. Remove default margin
-*/
-* {
-  margin: 0;
-}
-
-/*
-  3. Allow percentage-based heights in the application
-*/
-html,
-body {
-  height: 100%;
-}
-
-/*
-  Typographic tweaks!
-  4. Add accessible line-height
-  5. Improve text rendering
-*/
-body {
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
-}
-
-/*
-  6. Improve media defaults
-*/
 img,
 picture,
 video,
@@ -108,7 +74,6 @@ $fw-bold: 700;
 html {
   scroll-behavior: smooth;
   font-size: 62.5%; // 10 pixels = 1rem
-  height: 100svh; // https://www.youtube.com/watch?v=veEqYQlfNx8 (Kevin Powell, The problems with viewport units)
 }
 
 body {
@@ -120,7 +85,10 @@ body {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-}
+  min-height: 100vh;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  }
 
 button {
   appearance: none;
@@ -179,7 +147,8 @@ p {
 
     h1 {
       color: $clr-very-dark-blue;
-      font-family: $ff-accent
+      font-family: $ff-accent;
+      font-size: 3rem;
     }
 
     button {
