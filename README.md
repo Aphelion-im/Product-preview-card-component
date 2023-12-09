@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/Aphelion-im/Product-preview-card-component)
+- Live Site URL: [Live demo](https://aphelion-product-preview-card.netlify.app)
 
 ## My process
 
@@ -52,6 +52,7 @@ Users should be able to:
 - To start CSS/Sass font-family with: ff-
 - To start CSS/Sass font-weight with: fw-
 - To use a custom data-* attribute to place an svg as an icon. See code below.
+- That the vh unit is not ideal for mobile view. [Kevin Powell, The problems with viewport units](https://www.youtube.com/watch?v=veEqYQlfNx8)
 
 ```html
 <picture>
@@ -67,7 +68,9 @@ Users should be able to:
 ### Continued development
 Code-wise I am not entirely satisfied.
 
-CSS writing style may be improved with the [BEM method](https://getbem.com/introduction/). 
+- CSS writing style may be improved with the [BEM method](https://getbem.com/introduction/). 
+- Viewport Height on mobile cuts of a part of the top
+- On iPad the card stretches vertically and the content gets too much whitespace.
 
 ### Useful resources
 
@@ -75,6 +78,7 @@ CSS writing style may be improved with the [BEM method](https://getbem.com/intro
 - [Kevin Powell's Github repo of this specific project](https://github.com/kevin-powell/product-preview-card-component-main) - Sometimes studied this repo to get some inspiration
 - [Firefox developer edition](https://www.mozilla.org/nl/firefox/developer/) - Kevin Powell uses this browser during the project. 
 - [Josh Comeau's CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- [What length CSS unit should you use? (Kevin Powell)](https://whatunit.com/)
  
 ## Author
 
