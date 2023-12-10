@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/feeed92d-4ca0-4081-8353-48a6461470b7/deploy-status)](https://app.netlify.com/sites/aphelion-product-preview-card/deploys)
 # Frontend Mentor - Product preview card component solution
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
