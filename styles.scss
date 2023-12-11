@@ -129,7 +129,7 @@ p {
   picture {
     img {
       border-radius: 16px 16px 0 0;
-      object-fit: cover;
+      object-fit: contain;
       height: 100%;
     }
   }
@@ -213,7 +213,7 @@ p {
   .card {
     flex-direction: row;
     max-width: 600px;
-    max-height: 426px;
+    max-height: 426px; // iPad fix
 
     picture {
       img {
@@ -223,7 +223,7 @@ p {
 
     .card-content {
       padding: 3rem;
-      height: 426px;
+      max-height: 426px; // iPad fix
     }
   }
 }
