@@ -121,6 +121,8 @@ p {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   color: $clr-neutral-400;
 
   picture {
@@ -212,15 +214,12 @@ p {
     max-width: 600px;
 
     picture {
-      width: 50%;
-
       img {
         border-radius: 16px 0 0 16px;
       }
     }
 
     .card-content {
-      width: 50%;
       padding: 3rem;
     }
   }
