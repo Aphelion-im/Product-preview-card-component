@@ -129,7 +129,7 @@ p {
   picture {
     img {
       border-radius: 16px 16px 0 0;
-      object-fit: contain;
+      object-fit: contain; // contain works better on iPad
       height: 100%;
     }
   }
@@ -223,7 +223,8 @@ p {
 
     .card-content {
       padding: 3rem;
-      max-height: 426px; // iPad fix
+      height: 426px; // iPad fix
+      border: 1px solid red;
     }
   }
 }

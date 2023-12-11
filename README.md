@@ -54,6 +54,8 @@ Users should be able to:
 - To start CSS/Sass font-weight with: fw-
 - To use a custom data-* attribute to place an svg as an icon. See code below.
 - That the vh unit is not ideal for mobile view. [Kevin Powell, The problems with viewport units](https://www.youtube.com/watch?v=veEqYQlfNx8)
+- object-fit: contain; // contain works better on iPad
+
 
 ```html
 <picture>
