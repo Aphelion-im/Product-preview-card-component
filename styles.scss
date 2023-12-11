@@ -152,6 +152,7 @@ p {
       color: $clr-very-dark-blue;
       font-family: $ff-accent;
       font-size: 3rem;
+      margin-bottom: 1rem;
     }
 
     button {
@@ -224,7 +225,6 @@ p {
     .card-content {
       padding: 3rem;
       height: 426px; // iPad fix
-      border: 1px solid red;
     }
   }
 }
