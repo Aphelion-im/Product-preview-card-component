@@ -126,12 +126,13 @@ p {
   color: $clr-neutral-400;
 
   picture {
-    overflow: hidden;
+    border: 1px solid hotpink;
 
     img {
       border-radius: 16px 16px 0 0;
       object-fit: cover;
       height: 100%;
+      border: 1px solid green;
     }
   }
 
