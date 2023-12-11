@@ -215,6 +215,8 @@ p {
     max-height: 426px;
 
     picture {
+      overflow: hidden;
+
       img {
         border-radius: 16px 0 0 16px;
       }
