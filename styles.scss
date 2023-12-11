@@ -140,6 +140,7 @@ p {
     justify-content: space-between;
     gap: 1rem;
     padding: 2rem;
+    border: 1px solid red;
 
     .category-title {
       text-transform: uppercase;
@@ -221,6 +222,7 @@ p {
 
     .card-content {
       padding: 3rem;
+      gap: 1rem;
     }
   }
 }
